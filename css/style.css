@@ -11,6 +11,10 @@ font-family: 'Archivo Black', sans-serif;
     margin-bottom: 30px;
 }
 
+span{
+    color:green;
+}
+
 /*Nav style*/
 
 
@@ -31,6 +35,10 @@ font-family: 'Archivo Black', sans-serif;
 /*Header style*/
 .carousel-control.right,.carousel-control.left{
     background: transparent;
+}
+
+.carousel-inner>.item>img{
+    margin: auto;
 }
 
 /*Tropidog style*/
@@ -60,6 +68,17 @@ font-family: 'Archivo Black', sans-serif;
     content:"";
     border-bottom: 1px solid black;
         display:block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tropidog1 .col-md-6 .fa{
+    width: 60px;
+        height:60px;
+ 
 }
 
 
