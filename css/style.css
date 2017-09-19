@@ -1,59 +1,73 @@
-body{
+body {
     box-sizing: border-box;
     background: #fff;
 }
 
-h1,h2,h3{
-   
-font-family: 'Archivo Black', sans-serif;
+h1,
+h2,
+h3 {
+    font-family: 'Archivo Black', sans-serif;
     text-align: center;
     margin-top: 30px;
-    
-}
-h1 .fa{
-    color:gold;
-    margin: 5px;
-}
-h1 .fa:hover{
-    opacity:0.8;
-    transition: 1s;
-}
-span{
-    color:green;
 }
 
-.col-md-12 .fa{
+h1 .fa {
+    color: gold;
+    margin: 5px;
+}
+
+h1 .fa:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+span {
+    color: green;
+}
+
+.col-md-12 .fa {
     color: gold;
     padding: 3px;
-    padding:5px;
+    padding: 5px;
     margin-bottom: 30px;
 }
 
+.btn1 {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-color: #55CB3C;
+    color: #55CB3C;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
 /*Nav style*/
 
-
-
-.navbar-default{
+.navbar-default {
     height: 80px;
     background: #fff;
     margin: 0px;
-    border:transparent;
+    border: transparent;
 }
 
-.navbar-brand>img{
+.navbar-brand>img {
     height: 50px;
 }
 
 
-
 /*Header style*/
-.carousel-control.right,.carousel-control.left{
+
+.carousel-control.right,
+.carousel-control.left {
     background: transparent;
 }
 
-.carousel-inner>.item>img{
+.carousel-inner>.item>img {
     margin: auto;
 }
+
 
 /*Tropidog style*/
 
@@ -61,8 +75,8 @@ span{
     text-align: center;
 }
 
-#tropidog1 .col-md-12 .fa{
-        border-radius: 50%;
+#tropidog1 .col-md-12 .fa {
+    border-radius: 50%;
     color: #4CAF50;
     font-size: 4em;
     background: #171616;
@@ -71,17 +85,17 @@ span{
     line-height: 60px;
 }
 
- #tropidog1 .col-md-6 {
+#tropidog1 .col-md-6 {
     text-align: center;
-    padding:30px;
-     margin-top: 50px;
-     margin-bottom: 50px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-#tropidog1 .col-md-6::after{
-    content:"";
+#tropidog1 .col-md-6::after {
+    content: "";
     border-bottom: 1px solid black;
-        display:block;
+    display: block;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 50%;
@@ -89,56 +103,40 @@ span{
     margin-right: auto;
 }
 
-#tropidog1 .col-md-6 .fa{
+#tropidog1 .col-md-6 .fa {
     width: 60px;
-        height:60px;
- 
+    height: 60px;
 }
 
-
-
-#tropidog1 button{
-    width: 150px;
-    height: 50px;
-    background-color: transparent;
-    border-color:#55CB3C;
-    color: #55CB3C;
-    border-radius:10px;
-}
 
 /*logoBackground*****************************************************************************/
 
-#baner{
-    
-background-image: url(../img/zoogo-baner-glowny.jpg);
+#baner {
+    background-image: url(../img/zoogo-baner-glowny.jpg);
     width: 100%;
     height: 350px;
     background-position: center;
-    background-size: cover;}
+    background-size: cover;
+}
 
 
 /*Section Pay-------------------------------------------------*/
 
-#pay{
+#pay {
     margin-top: 30px;
     margin-bottom: 30px;
-    
 }
 
-#pay .col-md-12 img{
+#pay .col-md-12 img {
     width: 80%;
 }
 
 
-
 /*footer********************************************************************************************************************/
 
-footer{
+footer {
     background: green;
-    color:#fff;
-    
+    color: #fff;
 }
 
-footer .col-md-12{
-    
-}
+footer .col-md-12 {}
