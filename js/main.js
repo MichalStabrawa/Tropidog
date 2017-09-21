@@ -42,3 +42,10 @@ $(document).ready(function(){
         $("#tropidogSuper-content").slideToggle("slow");
     });
 });
+
+
+$(document).ready(function(){
+    $("#btn1-tropidog2").click(function(){
+        $("#tropidogPremium-content").slideToggle("slow");
+    });
+});
