@@ -35,3 +35,10 @@ $(document).ready(function(){
     });
 });
 
+
+/*Toogle TropidogSuper-content*/
+$(document).ready(function(){
+    $("#btn-tropidog1").click(function(){
+        $("#tropidogSuper-content").slideToggle("slow");
+    });
+});

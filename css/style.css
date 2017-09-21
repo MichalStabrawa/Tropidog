@@ -70,7 +70,11 @@ span {
 }
 
 
-/*Tropidog style*/
+/*Tropidog1 style******************************************************************************************************************/
+
+#tropidog-contact {
+    text-align: left;
+}
 
 #tropidog1 .col-md-12 {
     text-align: center;
@@ -107,6 +111,11 @@ span {
 #tropidog1 .col-md-6 .fa {
     width: 60px;
     height: 60px;
+}
+
+/*TropidogSuper Section*/
+#tropidogSuper-content{
+    display: none;
 }
 
 
