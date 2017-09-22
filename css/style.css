@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     background: #fff;
     font-family: 'Encode Sans Expanded', sans-serif;
+    margin: 0px;
 }
 
 h1,
@@ -124,9 +125,7 @@ span {
     margin-bottom: 10px;
 }
 
-#tropidogSuper-content p {
-    padding: 10px;
-}
+
 
 #tropidogPremium-content {
     display: none;
@@ -136,9 +135,7 @@ span {
     margin-bottom: 10px;
 }
 
-#tropidogPremium-content p{
-    padding:10px;
-}
+
 
 
 /*logoBackground*****************************************************************************/
@@ -168,7 +165,7 @@ span {
 
 /*footer********************************************************************************************************************/
 
-footer {
+footer {margin:0px;
     background: green;
     color: #fff;
 }
