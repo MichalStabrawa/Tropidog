@@ -150,6 +150,14 @@ span {
     color: red;
 }
 
+/*Section choose**********************************************/
+
+#choose .btn-lg{
+    width: 180px;
+    height: 50px;
+    margin:5px;
+}
+
 
 /*Section Pay-------------------------------------------------*/
 
