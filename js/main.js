@@ -58,3 +58,8 @@ function smallProducts(){
     small.style = "display: block";
 }
 document.getElementById('btn-small').addEventListener("click", smallProducts);
+
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
