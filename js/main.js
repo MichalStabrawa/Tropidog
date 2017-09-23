@@ -49,3 +49,12 @@ $(document).ready(function () {
         $("#tropidogPremium-content").slideToggle("slow");
     });
 });
+
+
+/*choose show .btn*/
+
+function smallProducts(){
+    var small = document.getElementById('smallDog');
+    small.style = "display: block";
+}
+document.getElementById('btn-small').addEventListener("click", smallProducts);
