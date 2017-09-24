@@ -55,11 +55,31 @@ $(document).ready(function () {
 
 function smallProducts(){
     var small = document.getElementById('smallDog');
+    document.getElementById('mediumDog').style="display:none";
+    document.getElementById('largeDog').style="display:none";
     small.style = "display: block";
+    
 }
 document.getElementById('btn-small').addEventListener("click", smallProducts);
 
+function mediumProducts(){
+    var medium = document.getElementById('mediumDog');
+    document.getElementById('smallDog').style="display:none";
+    document.getElementById('largeDog').style="display:none";
+    medium.style = "display: block";
+}
+document.getElementById('btn-medium').addEventListener("click", mediumProducts);
 
+function largeProducts(){
+    var large = document.getElementById('largeDog');
+    document.getElementById('smallDog').style="display:none";
+     document.getElementById('mediumDog').style="display:none";
+    large.style = "display: block";
+}
+document.getElementById('btn-large').addEventListener("click", largeProducts);
+
+
+/*tootlip*/
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })

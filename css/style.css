@@ -165,6 +165,17 @@ span {
     border-radius:5px;
 }
 
+#mediumDog{
+    display:none;
+   background-color:skyblue;
+    border-radius:5px;
+}
+#largeDog{
+    display:none;
+    background-color: red;
+    border-radius:5px;
+}
+
 
 /*Section Pay-------------------------------------------------*/
 
