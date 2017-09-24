@@ -1,0 +1,134 @@
+body {
+    box-sizing: border-box;
+    background: #fff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Archivo Black', sans-serif;
+    margin-top: 30px;
+}
+
+h3::after {
+    content: "";
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+h1 .fa {
+    color: gold;
+    margin: 5px;
+}
+
+h1 .fa:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+span {
+    color: green;
+}
+
+.col-md-12 .fa {
+    color: gold;
+    padding: 3px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.btn1 {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-color: #55CB3C;
+    color: #55CB3C;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*Nav style*/
+
+.navbar-default {
+    height: 80px;
+    background: #fff;
+    margin: 0px;
+    border: transparent;
+}
+
+.navbar-brand>img {
+    height: 50px;
+}
+
+
+/*products**section************************************************************************************************************************************/
+
+.col-md-3 {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.col-md-3 img {
+    transition: 0.3s;
+}
+
+.col-md-3 img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.products h4::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+}
+
+.products .btn-success {
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*footer********************************************************************************************************************/
+
+footer {
+    margin: 0px;
+    background: green;
+    color: #fff;
+}
+
+footer address {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+footer.fa,
+a {
+    font-size: 1.2em;
+    display: block;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+footer a:focus {
+    color: #fff;
+}
+
+footer .social {
+    display: inline;
+    margin: 5px;
+}
+
+footer .col-md-6 {
+    margin-bottom: 15px;
+}
