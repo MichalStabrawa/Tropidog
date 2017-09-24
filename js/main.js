@@ -77,6 +77,8 @@ function scrollFunction() {
 
 //document.getElementById('myBtn').addEventListener('click', topFunction);
 
+
+
 $('#myBtn').on('click',function(){
     $('body').animate({
         scrollTop: $('.navbar').offset().top
