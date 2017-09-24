@@ -70,10 +70,23 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
-    document.documentElement.scrollTop = 0; // For IE and Firefox
-}
+//function topFunction() {
+ //   document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+  //  document.documentElement.scrollTop = 0; // For IE and Firefox
+//}
 
-document.getElementById('myBtn').addEventListener('click', topFunction);
+//document.getElementById('myBtn').addEventListener('click', topFunction);
+
+$('#myBtn').on('click',function(){
+    $('body').animate({
+        scrollTop: $('.navbar').offset().top
+    },1000)
+})
+
+
+$('#scrollPage').on('click', function(){
+    $('body').animate({
+        scrollTop: $('#choose').offset().top
+    },1000)
+})
         
