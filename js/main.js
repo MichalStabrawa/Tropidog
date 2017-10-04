@@ -85,14 +85,14 @@ function scrollFunction() {
 
 
 $('#myBtn').on('click', function () {
-    $('body').animate({
+    $('html, body').animate({
         scrollTop: $('.navbar').offset().top
     }, 1000);
 });
 
 
 $('#scrollPage').on('click', function () {
-    $('body').animate({
+    $('html, body').animate({
         scrollTop: $('#choose').offset().top
     }, 1000);
 });
